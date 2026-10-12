@@ -3,7 +3,7 @@
 A beginner-friendly Google Colab project that **custom-trains YOLO11 and YOLO26 on wildlife photos, keeps the better
 model, and flags which detected animals are endangered**.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/YOUR_REPO/blob/main/endangered_wildlife_detector.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mohammedsalmaan08/endangered-wildlife-yolo/blob/main/endangered_wildlife_detector.ipynb)
 
 ## How it works
 
