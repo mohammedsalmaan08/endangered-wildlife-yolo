@@ -1,0 +1,30 @@
+{
+  "elephant": {
+    "common": "African savanna elephant",
+    "scientific": "Loxodonta africana",
+    "iucn": "EN",
+    "year": 2021,
+    "note": "African forest elephant (L. cyclotis) is Critically Endangered."
+  },
+  "rhino": {
+    "common": "Rhinoceros (black / white)",
+    "scientific": "Diceros bicornis / Ceratotherium simum",
+    "iucn": "CR",
+    "year": 2020,
+    "note": "Black rhino is CR; white rhino is NT (northern subspecies CR). Worst case shown."
+  },
+  "zebra": {
+    "common": "Plains zebra",
+    "scientific": "Equus quagga",
+    "iucn": "NT",
+    "year": 2016,
+    "note": "Other zebras differ (e.g. Grevy's zebra is Endangered)."
+  },
+  "buffalo": {
+    "common": "African buffalo",
+    "scientific": "Syncerus caffer",
+    "iucn": "NT",
+    "year": 2019,
+    "note": "Listed as Near Threatened globally."
+  }
+}
