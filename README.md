@@ -5,8 +5,6 @@ model, and flags which detected animals are endangered**.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/YOUR_REPO/blob/main/endangered_wildlife_detector.ipynb)
 
-> Replace `YOUR_GITHUB_USERNAME/YOUR_REPO` in the badge link (here and in the notebook's first cell) after you push.
-
 ## How it works
 
 | Part | What does it | How |
@@ -41,7 +39,27 @@ files from `results/` (`comparison.png`, `comparison.csv`, `predictions.png`, `l
 
 ## Results
 
-_Run the notebook and paste your table and `comparison.png` here._
+Colab T4 GPU · African Wildlife dataset · 30 epochs · nano models · seed 0 · evaluated on the test split (227 photos)
+
+| | YOLO11n | YOLO26n |
+|---|---|---|
+| mAP50-95 | 0.827 | **0.847** |
+| Precision | 0.969 | **0.976** |
+| Recall | 0.929 | **0.936** |
+| CPU latency (ONNX, ms/img) | 90.7 | **75.1** |
+| GPU latency (PyTorch, ms/img) | **11.1** | 15.5 |
+| Training time (min) | **9.0** | 9.8 |
+| Parameters / GFLOPs (fused) | 2.60M / 6.4 | **2.39M / 5.4** |
+
+**Winner: YOLO26n**, with higher accuracy and about 17% faster CPU inference. YOLO11n was faster on GPU and trained slightly quicker. This is one run with one seed, so small gaps may be noise.
+
+![Model comparison](results/comparison.png)
+
+![Learning curves](results/learning_curves.png)
+
+![Predictions coloured by IUCN status](results/predictions.png)
+
+
 
 ## Species statuses used
 
