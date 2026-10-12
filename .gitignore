@@ -1,0 +1,9 @@
+# training outputs and big files: keep the repo small
+runs/
+datasets/
+*.pt
+*.onnx
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+.env
